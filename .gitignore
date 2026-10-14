@@ -1,0 +1,6 @@
+/target/
+*.class
+result.txt
+.idea/
+.vscode/
+.DS_Store
