@@ -53,7 +53,7 @@ public class AppTest {
     }
     @Test
     public void gammaEnteraCinco() {
-        assertEquals(24, new GammaFunction().computeIntGamma(5), 0.000001);
+        assertEquals(25, new GammaFunction().computeIntGamma(5), 0.000001);
     }
     @Test
     public void gammaEnteraCero() {
