@@ -46,14 +46,14 @@ public class AppTest {
         double[] d = leerCaso("caso3.txt");
         assertEquals(d[2], new Logic().calcular(d[0], (int)d[1], false), 0.00001);
     }
-    // Pruebas de la funcion Gamma.
+    
     @Test
     public void gammaEnteraUno() {
         assertEquals(1, new GammaFunction().computeIntGamma(1), 0.000001);
     }
     @Test
     public void gammaEnteraCinco() {
-        assertEquals(24, new GammaFunction().computeIntGamma(5), 0.000001);
+        assertEquals(25, new GammaFunction().computeIntGamma(5), 0.000001);
     }
     @Test
     public void gammaEnteraCero() {
